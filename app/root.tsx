@@ -9,10 +9,15 @@ import {
 } from "@remix-run/react";
 
 import tailwindStylesheetUrl from "./styles/tailwind.css";
+import fonts from "./styles/tailwind.css";
 
-export const links: LinksFunction = () => {
-  return [{ rel: "stylesheet", href: tailwindStylesheetUrl }];
-};
+export const links: LinksFunction = () => [
+  { rel: "stylesheet", href: tailwindStylesheetUrl },
+  {
+    rel: "stylesheet",
+    href: fonts,
+  },
+];
 
 export const meta: MetaFunction = () => ({
   charset: "utf-8",
@@ -22,7 +27,7 @@ export const meta: MetaFunction = () => ({
 
 export default function App() {
   return (
-    <html lang="en" className="h-full">
+    <html lang="en" className="h-full font-sans text-gray-120">
       <head>
         <title>awesome-github</title>
         <Meta />
