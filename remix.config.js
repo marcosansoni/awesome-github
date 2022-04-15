@@ -3,9 +3,6 @@
  */
 module.exports = {
   cacheDirectory: "./node_modules/.cache/remix",
-  // publicPath: "/build/",
-  // assetsBuildDirectory: "public/build",
-  // serverBuildTarget: "vercel",
   serverBuildTarget: "vercel",
   assetsBuildDirectory: "public/build",
   // When running locally in development mode, we use the built in remix
