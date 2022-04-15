@@ -17,7 +17,7 @@
     "lint": "eslint --cache --cache-location ./node_modules/.cache/eslint .",
     "start": "remix-serve build",
     "test": "vitest",
-    "typecheck": "tsc -b && tsc -b cypress",
+    "typecheck": "tsc -b",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
     "prepare": "husky install"
