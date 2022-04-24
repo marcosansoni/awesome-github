@@ -1,5 +1,5 @@
 module.exports = {
-  content: ["./app/**/*.{ts,tsx,jsx,js}"],
+  content: ["./app/**/*.{ts,tsx,jsx,js}", "./components/**/*.{ts,tsx,jsx,js}"],
   theme: {
     colors: {
       gray: {
@@ -10,7 +10,7 @@ module.exports = {
         60: "#BFBFC4",
       },
       blue: {
-        100: "#9B9BA4",
+        100: "#457B9D",
         80: "#5590B4",
         60: "#71A2C1",
         40: "#8EB5CD",
