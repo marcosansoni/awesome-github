@@ -1,6 +1,6 @@
 import React from "react";
 import type { DefaultProps } from "types/common";
-import { withCustomClassNames } from "../../utils/style";
+import { withCustomClassNames } from "../../../utils/style";
 
 export const Heading1: DefaultProps = ({ classNames, children }) => (
   <div

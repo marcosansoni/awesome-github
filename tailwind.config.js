@@ -2,14 +2,18 @@ module.exports = {
   content: ["./app/**/*.{ts,tsx,jsx,js}", "./components/**/*.{ts,tsx,jsx,js}"],
   theme: {
     colors: {
+      white: "#FFFFFF",
       gray: {
         120: "#44444B",
         110: "#61616B",
         100: "#70707B",
         80: "#9B9BA4",
         60: "#BFBFC4",
+        20: "#EDEDEE",
+        10: "#F6F6F7",
       },
       blue: {
+        120: "#3B6986",
         100: "#457B9D",
         80: "#5590B4",
         60: "#71A2C1",
