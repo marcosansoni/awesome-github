@@ -1,5 +1,6 @@
 import fonts from "../public/styles/fonts.css";
 import tailwindStylesheetUrl from "../app/styles/tailwind.css";
+import { BrowserRouter as Router } from "react-router-dom";
 
 export const parameters = {
   options: {
@@ -13,3 +14,5 @@ export const parameters = {
     },
   },
 };
+
+export const decorators = [(storyFn) => <Router>{storyFn()}</Router>];
