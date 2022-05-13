@@ -1,7 +1,7 @@
 import { Body, Heading1, Heading2 } from "../Typography";
 import { PrimaryButton } from "../Button";
 import { Header } from "../Header";
-import { SearchIcon } from "~/components/SvgIcon";
+import { SearchIcon } from "../SvgIcon";
 
 export const Homepage = () => {
   return (

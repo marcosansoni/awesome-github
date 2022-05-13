@@ -1,6 +1,6 @@
 import { Link } from "@remix-run/react";
-import { LogoIcon, SearchIcon } from "~/components/SvgIcon";
-import { ThemePicker } from "~/components/Header/ThemePicker";
+import { LogoIcon, SearchIcon } from "../SvgIcon";
+import { ThemePicker } from "../ThemePicker";
 
 export const Header = () => {
   return (
