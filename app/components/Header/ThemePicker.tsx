@@ -10,9 +10,9 @@ export const ThemePicker = () => {
   const [theme, setTheme] = useState<ThemeType | null>(null);
 
   const animationClassName = clsx({
-    "animate-[bounce-left-right_0.8s_ease-in_forwards]":
+    "animate-[bounce-left-right_0.6s_ease-in_forwards]":
       theme === ThemeType.Dark,
-    "animate-[bounce-right-left_0.8s_ease-in_forwards]":
+    "animate-[bounce-right-left_0.6s_ease-in_forwards]":
       theme === ThemeType.Light,
   });
 

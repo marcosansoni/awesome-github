@@ -5,7 +5,7 @@ import { withCustomClassNames } from "../../../utils/style";
 export const Heading1: DefaultProps = ({ classNames, children }) => (
   <div
     className={withCustomClassNames(
-      "font-serif text-6xl font-bold",
+      "font-serif text-5xl font-bold sm:text-6xl",
       classNames
     )}
   >
@@ -16,7 +16,7 @@ export const Heading1: DefaultProps = ({ classNames, children }) => (
 export const Heading2: DefaultProps = ({ classNames, children }) => (
   <div
     className={withCustomClassNames(
-      "font-serif text-4xl font-bold",
+      "font-serif text-3xl font-bold sm:text-4xl",
       classNames
     )}
   >
@@ -48,7 +48,7 @@ export const Subheading2: DefaultProps = ({ classNames, children }) => (
 );
 
 export const Body: DefaultProps = ({ classNames, children }) => (
-  <div className={withCustomClassNames("font-sans text-xl", classNames)}>
+  <div className={withCustomClassNames("font-sans sm:text-lg", classNames)}>
     {children}
   </div>
 );
