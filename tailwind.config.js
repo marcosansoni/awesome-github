@@ -34,6 +34,16 @@ module.exports = {
       sans: ["Open Sans", "sans-serif"],
       serif: ["Work Sans", "serif"],
     },
+    keyframes: {
+      "bounce-left-right": {
+        "0%": { transform: "translateX(0px)" },
+        "100%": { transform: "translateX(1.5rem)" },
+      },
+      "bounce-right-left": {
+        "0%": { transform: "translateX(1.5rem)" },
+        "100%": { transform: "translateX(0px)" },
+      },
+    },
   },
   plugins: [],
 };
