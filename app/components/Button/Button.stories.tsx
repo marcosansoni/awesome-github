@@ -1,8 +1,7 @@
-import type { ComponentMeta } from "@storybook/react";
-import type { ComponentStory } from "@storybook/react";
+import type { ComponentMeta, ComponentStory } from "@storybook/react";
+import { action } from "@storybook/addon-actions";
 import { Button } from "./Button";
 import { PrimaryButton, SecondaryButton } from ".";
-import { action } from "@storybook/addon-actions";
 
 export default {
   title: "components/Button",

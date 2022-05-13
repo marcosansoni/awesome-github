@@ -1,5 +1,4 @@
-import type { ComponentMeta } from "@storybook/react";
-import type { ComponentStory } from "@storybook/react";
+import type { ComponentMeta, ComponentStory } from "@storybook/react";
 import { Homepage } from "./Homepage";
 
 export default {
