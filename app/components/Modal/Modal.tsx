@@ -14,13 +14,15 @@ export const Modal: React.FC<ModalProps> = ({ onClose, title, children }) => {
       isOpen
       onRequestClose={onClose}
     >
-      <div className="mb-2 flex items-center justify-between border-b border-gray-20 pb-2">
-        <div className="pr-1">{title}</div>
-        <div>
-          <KeyCap onClick={onClose}>esc</KeyCap>
+      <div>
+        <div className="mb-2 flex items-center justify-between border-b border-gray-20 pb-2">
+          <div className="pr-1">{title}</div>
+          <div>
+            <KeyCap onClick={onClose}>esc</KeyCap>
+          </div>
         </div>
+        {children}
       </div>
-      {children}
     </ReactModal>
   );
 };
