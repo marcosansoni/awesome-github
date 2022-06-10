@@ -5,4 +5,5 @@ export {
   Subheading1,
   Subheading2,
   Body,
+  SmallBody,
 } from "./Typography";

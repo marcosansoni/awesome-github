@@ -52,3 +52,9 @@ export const Body: DefaultProps = ({ classNames, children }) => (
     {children}
   </div>
 );
+
+export const SmallBody: DefaultProps = ({ classNames, children }) => (
+  <div className={withCustomClassNames("font-sans text-sm", classNames)}>
+    {children}
+  </div>
+);
