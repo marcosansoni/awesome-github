@@ -1,1 +1,8 @@
-export { SearchIcon, LogoIcon, SunIcon } from "./SvgIcon";
+export {
+  SearchIcon,
+  LogoIcon,
+  SunIcon,
+  EnterKeyIcon,
+  ArrowUpIcon,
+  ArrowDownIcon,
+} from "./SvgIcon";

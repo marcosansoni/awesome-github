@@ -14,7 +14,7 @@ export const AutosuggestItem = ({
   bio,
 }: GitHubUser) => {
   return (
-    <div className="flex w-16 p-3">
+    <div className="flex pt-2 pb-2">
       <img
         src={avatarUrl}
         alt="avatar"

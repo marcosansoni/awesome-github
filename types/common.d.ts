@@ -1,3 +1,3 @@
 import type React from "react";
 
-export type DefaultProps = React.FC<{ classNames?: string }>;
+export type DefaultProps<T = {}> = React.FC<T & { classNames?: string }>;
