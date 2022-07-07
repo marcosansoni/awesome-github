@@ -2,7 +2,7 @@ import { Body, Heading1, Heading2 } from "../Typography";
 import { PrimaryButton } from "../Button";
 import { Header } from "../Header";
 import { SearchIcon } from "../SvgIcon";
-import { Search } from "../Search/Search";
+import { ConnectedSearch } from "../Search";
 
 export const Homepage = () => {
   return (
@@ -38,7 +38,7 @@ export const Homepage = () => {
         <div className="flex h-full w-full bg-blue-60" />
         <div className="flex h-full w-full bg-blue-40" />
       </div>
-      <Search />
+      <ConnectedSearch />
     </div>
   );
 };

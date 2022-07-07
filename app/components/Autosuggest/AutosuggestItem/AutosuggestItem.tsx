@@ -1,10 +1,13 @@
+import type { Maybe } from "@graphql-tools/utils";
 import { SmallBody } from "../../Typography";
+import { withCustomClassNames } from "../../../../utils/style";
 
 interface GitHubUser {
   avatarUrl: string;
-  name: string;
+  name?: Maybe<string>;
   login: string;
-  bio: string;
+  bio?: Maybe<string>;
+  classNames: string;
 }
 
 export const AutosuggestItem = ({
@@ -12,9 +15,10 @@ export const AutosuggestItem = ({
   name,
   login,
   bio,
+  classNames,
 }: GitHubUser) => {
   return (
-    <div className="flex pt-2 pb-2">
+    <div className={withCustomClassNames("flex pt-2 pb-2", classNames)}>
       <img
         src={avatarUrl}
         alt="avatar"
