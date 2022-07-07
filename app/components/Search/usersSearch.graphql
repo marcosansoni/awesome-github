@@ -1,0 +1,26 @@
+query usersSearch($query: String!, $first: Int!) {
+    search(query: $query, type: USER, first: $first) {
+        userCount
+        edges {
+            node {
+                ... on User {
+                    ...UserSearch
+                }
+            }
+        }
+        discussionCount
+        codeCount
+    }
+}
+
+fragment UserSearch on User {
+    id
+    email
+    avatarUrl(size: 64)
+    bio
+    bioHTML
+    isEmployee
+    isHireable
+    login
+    name
+}

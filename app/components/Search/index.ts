@@ -1,0 +1,1 @@
+export { ConnectedSearch } from "./ConnectedSearch";
